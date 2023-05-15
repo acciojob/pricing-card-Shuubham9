@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+.card {
+  border: 1px solid #ccc;
+  width:200px;
+  box-shadow: 2px 2px 50px 0 rgba(0,0,0,0.5);
+  padding: 20px;
+  margin: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
