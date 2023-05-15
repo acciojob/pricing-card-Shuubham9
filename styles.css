@@ -1,10 +1,12 @@
 /*  your css code here. If applicable */
 .card {
   border: 1px solid #ccc;
-  width:200px;
-  box-shadow: 2px 2px 50px 0 rgba(0,0,0,0.5);
+  width:300px;
+height:500px;
+  box-shadow: 1px 1px 90px 0 rgba(0;,0,0,0.5);
   padding: 20px;
   margin: 20px;
+ background-color: #FFFAFA;	
 }
 
 .card img {
@@ -17,13 +19,13 @@
   text-align: center;
 }
 
-.card-content h3 {
-  font-size: 24px;
+.card-content h1 {
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
-.card-content p {
-  font-size: 16px;
+.card-content section,span {
+  font-size: 25px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -35,4 +37,5 @@
   padding: 10px 20px;
   border-radius: 10px;
   text-decoration: none;
+  margin-bottom:20px;
 }
